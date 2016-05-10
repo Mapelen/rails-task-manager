@@ -1,0 +1,7 @@
+<h1>Modifier une tâche</h1>
+
+<%= form_for @task do |f| %>
+  <%= f.label :name, "Entrez une nouvelle tâche" %>
+  <%= f.text_field :name %>
+  <%= f.submit %>
+<% end %>
